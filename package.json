@@ -1,5 +1,5 @@
 {
-  "name": "BareQuotes",
+  "name": "play-silhouette-angular-seed",
   "version": "0.0.0",
   "dependencies": {
     "grunt-cli": "~0.1.13",

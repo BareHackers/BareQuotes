@@ -8,9 +8,9 @@ import scalariform.formatter.preferences._
 // Play settings
 //********************************************************
 
-name := "BareQuotes"
+name := """BareQuotes"""
 
-version := "2.1-SNAPSHOT"
+version := "2.0-RC2"
 
 scalaVersion := "2.11.6"
 
@@ -19,7 +19,7 @@ resolvers := ("Atlassian Releases" at "https://maven.atlassian.com/public/") +: 
 resolvers += Resolver.sonatypeRepo("snapshots")
 
 libraryDependencies ++= Seq(
-  "com.mohiva" %% "play-silhouette" % "2.0",
+  "com.mohiva" %% "play-silhouette" % "2.0-RC2",
   "net.codingwell" %% "scala-guice" % "4.0.0-beta5",
   cache
 )
